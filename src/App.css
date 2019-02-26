@@ -1,4 +1,23 @@
 .App {
+  height: 100vh;
   text-align: center;
 }
-
+p {
+  margin: 0;
+}
+button.palette{
+  margin-right: 10px;
+  padding: 5px;
+  width: 70px;
+  height: 70px;
+  border: 2px solid #999;
+  box-shadow: 1px 1px #ccc;
+  border-radius: 100%;
+  outline: none;
+}
+button.palette:focus {
+  border: 2px solid #fff;
+}
+button.palette:last-child {
+  margin-right: 0;
+}
